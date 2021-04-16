@@ -1,10 +1,10 @@
 apiVersion: source.toolkit.fluxcd.io/v1beta1
 kind: GitRepository
 metadata:
-  name: amadeus-repo
+  name: example-repo
   namespace: flux-system
 spec:
   interval: 10m
-  url: https://github.com/amadeuspham/kubernetes-2021
+  url: https://github.com/kubernetes-hy/material-example
   ref:
-    branch: main
+    branch: master
