@@ -11,3 +11,4 @@ spec:
   path: ./todo-project/manifests 
   prune: true 
   validation: client 
+# Useless comment for pushing
